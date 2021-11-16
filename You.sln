@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "You.UI", "You.UI\You.UI.csproj", "{7B600BC4-D4B8-46D3-8A0F-63C6185B7693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "You.DTOs", "You.DTOs\You.DTOs.csproj", "{E8B09CBF-6EA3-4ECD-92E6-63BA08CC991E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "You.DataSource", "You.DataSource\You.DataSource.csproj", "{E1993911-4C15-425C-B22A-475FA0FF2443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B600BC4-D4B8-46D3-8A0F-63C6185B7693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B600BC4-D4B8-46D3-8A0F-63C6185B7693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B600BC4-D4B8-46D3-8A0F-63C6185B7693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B600BC4-D4B8-46D3-8A0F-63C6185B7693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B09CBF-6EA3-4ECD-92E6-63BA08CC991E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B09CBF-6EA3-4ECD-92E6-63BA08CC991E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B09CBF-6EA3-4ECD-92E6-63BA08CC991E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B09CBF-6EA3-4ECD-92E6-63BA08CC991E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1993911-4C15-425C-B22A-475FA0FF2443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1993911-4C15-425C-B22A-475FA0FF2443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1993911-4C15-425C-B22A-475FA0FF2443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1993911-4C15-425C-B22A-475FA0FF2443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F09BAEA2-3994-4461-B658-F2E23BF04A6C}
+	EndGlobalSection
+EndGlobal

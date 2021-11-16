@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+    @if (Model.Customers != null)
+    {
+        @foreach (var customer in Model.Customers)
+        {
+            <h1>@customer.Firstname</h1>
+        }
+    }
+
+</div>
+
+<form asp-page-handler="Save">
+    <input type="text" asp-for="Customer.Id" />
+    <input type="text" asp-for="Customer.Firstname" />
+    <input type="text" asp-for="Customer.Lastname" />
+    <button type="submit">Save</button>
+</form>
